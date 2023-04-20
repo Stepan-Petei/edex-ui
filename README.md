@@ -1,4 +1,4 @@
-<p align="center">
+<p text-align="center">
   <br>
   <img alt="Logo" src="media/logo.png">
   <br><br>
@@ -23,7 +23,7 @@ eDEX-UI is a fullscreen, cross-platform terminal emulator and system monitor tha
 ---
 
 <a href="https://youtu.be/BGeY1rK19zA">
-  <img align="right" width="400" alt="Demo on YouTube" src="media/youtube-demo-teaser.gif">
+  <img text-align="right" width="400" alt="Demo on YouTube" src="media/youtube-demo-teaser.gif">
 </a>
 
 Heavily inspired from the [TRON Legacy movie effects](https://web.archive.org/web/20170511000410/http://jtnimoy.com/blogs/projects/14881671) (especially the [Board Room sequence](https://gmunk.com/TRON-Board-Room)), the eDEX-UI project was originally meant to be *"[DEX-UI](https://github.com/seenaburns/dex-ui) with less « art » and more « distributable software »"*.
@@ -37,7 +37,7 @@ It might or might not be a joke taken too seriously.
 
 ---
 
-<p align="center">
+<p text-align="center">
   <em>Jump to: <br><a href="#features">Features</a> — <a href="#screenshots">Screenshots</a> — <a href="#qa">Questions & Answers</a> — <strong><a href="#how-do-i-get-it">Download</a></strong> — <a href="#featured-in">Featured In</a> — <a href="#useful-commands-for-the-nerds">Contributor Instructions</a> — <a href="#credits">Credits</a></em>
 </p>
 
