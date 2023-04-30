@@ -203,7 +203,15 @@ function createWindow(settings) {
         }
     });
 
-    win.loadURL(url.format({
+    function urlFromComponents ({pathname = '/', protocol = 'https:', ...props} = {}) {
+        const url = new URL('https://site.example');
+        url.protocol = protocol;
+        url.hostname = props.hostname;
+        url.pathname = pathname;
+        return url;
+    }
+    
+    win.loadURL(urlFromComponents({
         pathname: path.join(__dirname, 'ui.html'),
         protocol: 'file:',
         slashes: true
